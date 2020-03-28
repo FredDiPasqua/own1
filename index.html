@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Proyecto 1</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #header img {
+            height: 90px;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+        }
+        #header {
+            background-color: black;
+            height: 105px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">
+            <img height="105px" class="d-inline-block" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAZlBMVEUAAAD///8BAQE7OzseHh4QEBBKSkr4+PgICAj09PTe3t5GRkaIiIj8/PxOTk7v7++9vb3p6elAQEA2NjYXFxcvLy+0tLQqKipgYGBoaGinp6efn5/Y2NjMzMx9fX2VlZVzc3NWVlZoVYoVAAAEYUlEQVR4nO2b63ajIBSFwXu8JZo2pokm7fu/5MAB5IDa2smagR/sWdMJoPCxOSCYDhkS1yIFca6URPxPpP6uf3yhRDSDc1WOSqbueq+UzqAOEZzLCxcCQoiFgIARnMsLFzxAcC4vXAgIIRYCAkZwLi9c8ADBubxwISCEWAgIGMG5vHAhIIRY8AjBubxwISBsxkLEZXyQ2fZ16AU2uhEliFXTsscbLkRRoSvAFxgvuQtxEVwgs9RdJqHm2Y9g4iAAEtmFxfL+yPx3dsEs/QHhra3ajKuNbZo3USBKe56Vtm0mM9mHd90o6XnJQCQC3Nq2dlsbsXBvDvkBdDxdUd9ZPW1zmJWfeFGrroWs4yWbqylZQVPLuyOS8euaJYLtAjdsaCjS+ND2sQZ1QUNPomZqaroqBJ6qVcWkgmp/RuCNnaw673NHDAS6gUDpQwz9ToQVxXaN5RsaCAuBrCGMIh4MBLLfBWVCziVH5EPHcSsKROlFu8BSTPKGQ79E2D8Qqp8XNu0LMjxzkeBjIL7OK7TSVLtQJEOSDG/ZBdp5voJAyAQIyvsnizqap6RgqxWpk4VlCmFOXniqg5j621g4H0W/pW5yJBjA10hvhFjrJUaAxe9KRfKFWACEPJOjX1E++UqWSJjFDe1lj1YQIljWSZWvI/xiIBhCQ/NYNlM2jQxH0bvx/Xw+m9/xZrpNPWVeRWAu9GL5r2Vo8gphkClDyr8MGzAC0QjkxVhgCITZ2h8gtgaYEIma/wxhzQWVbNYRfh0LPfTqqUwAhptG2HSBzLGw34VvEAqSdOB9DAS9JKDN9wgbLvxVLLCSD2hzggKxXnRM5gMXTcoIIehwVC38MhbUjJh4/LHHTgE07NmYvL9vzghYMjYQol/EQn/EXg98caQdWyuHO58Ow5JZrwswXstYEJvJAgfq9wjDUXvPVAPDJ18dh4mt/UVkb99+WB0f0gPmb75zIOT8V+MN0+Ao936fa794Yk1KeM52+jHVqZuu0+7HVAyLwRRXTB8TLEY3Mu8/2bZSKquyWCOcY67zVQTtHS4vwUG27eqrShbse1jP83+ehPQ6b5vIFy6Z1nZN/MlawQ2dVRHlT5ldCMTeBpXSSt6zDBfgjVsjf/BmRlHPx4iaFuqeSwRbHOluEhzq+ZePlttXYiDIGx7yyFF8dhQXHp/LGbW+gy4OCCC/nbVDq9tXY7/NAO5nGTm86lqPRnNPlieZraPMoxxLobHG+XwgulLrBggoYyynh11ZLeu6rzS0jUBStT0kmBuuTdHmEQ6VRk5K0NmNCc57qqr1ptbJjI4bNy6HbXkQMRCsM+kawqoLxXxCX56F5zQ6rZtHe/N9gHG03o+A3hhg9GUt+mXCghAnN871EsG5vHjRExBCLAQEjOBcXrgQEEIseITgXF64EBBCLAQEjOBcXrjgAYJzeeFCQAixEBAwgnN54UJACLHgEYJzeeFCQPAkFta/p/jPCP/0/9z/WOLDQLgeBaY+dq0/i/UyCJ5+kFUAAAAASUVORK5CYII=" alt="">
+            travels
+        </a>
+        <form class="form-inline my-2 my-lg-0" action="">
+            <input class="form-control mr-sm-2" style="width: 280px;" type="search" placeholder="Busca el pais que quisieras visitar" aria-label="search">
+            <button class="btn btn-danger my-2 my-sm-0" type="submit" >Buscar</button>
+        </form>
+    </nav>
+    <!-- sidebar -->
+    <main id="main">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-6 d-none d-sm-block bg-light sidebar">
+                    <div class="sidebar-sticky">
+                        
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
