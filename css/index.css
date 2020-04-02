@@ -1,0 +1,8 @@
+#header-nav #navbarSupportedContent {
+  justify-content: flex-end;
+}
+#header-nav #navbarSupportedContent form {
+  justify-content: inherit;
+}
+
+/*# sourceMappingURL=index.css.map */
